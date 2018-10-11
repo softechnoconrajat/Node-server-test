@@ -61,7 +61,12 @@ res.render('home.hbs', {
 });
 
 
+app.get('/project', (req, res) => {
+  res.render('project.hbs', {
+    pageTitle : 'Project Page'
 
+  });
+});
 
 
 
